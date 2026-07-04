@@ -10,6 +10,11 @@
 
 // module
 // console.log(Math.floor(10/3))
-let a = 10
+// let a = 10
 
-console.log(a++ + ++a)
+// console.log(a++ + ++a)
+
+let a = 10
+console.log(a)
+console.log(++a + a++)
+console.log(a)
