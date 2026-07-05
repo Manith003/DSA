@@ -1,0 +1,14 @@
+Math Functions
+
+-- compound intrest problem
+a = p*(1+r/100)^t
+cp = a-p 
+
+-- generate OTP
+-- area of triangle by heron formula
+-- circumstance
+
+
+if-else
+-- print greatest between two number
+-- print even or odd
