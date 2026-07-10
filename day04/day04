@@ -5,3 +5,13 @@ Loops
 n to 1
 
 -- print tables
+-- sum of n numbers
+-- factorial of n
+-- print even and odd numbers up to n
+-- print all factors of n
+-- prime or not
+2-->n
+2-->n/2
+2-->Math.sqrt(n)
+
+-- find power like a,b = (a^b)
