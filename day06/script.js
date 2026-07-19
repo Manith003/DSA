@@ -67,44 +67,44 @@
 //   ).toLowerCase();
 // } while (userInput === "yes");
 
-let choice;
-let totalBill = 0;
-let quantity;
-do {
-  console.log(`
-========= Restaurant Menu =========
+// let choice;
+// let totalBill = 0;
+// let quantity;
+// do {
+//   console.log(`
+// ========= Restaurant Menu =========
 
-1. Pizza      - ₹250
-2. Burger     - ₹120
-3. Pasta      - ₹180
-4. Show Bill
-5. Exit
-`);
-  choice = prompt("Enter your choice (1,2,3,4,5): ");
+// 1. Pizza      - ₹250
+// 2. Burger     - ₹120
+// 3. Pasta      - ₹180
+// 4. Show Bill
+// 5. Exit
+// `);
+//   choice = prompt("Enter your choice (1,2,3,4,5): ");
 
-  switch (choice) {
-    case "1":
-      quantity = Number(prompt("Enter a quantity: "));
-      totalBill = totalBill + 250 * quantity;
-      console.log("Pizza Added.");
-      break;
-    case "2":
-      quantity = Number(prompt("Enter a quantity: "));
-      totalBill = totalBill + 120 * quantity;
-      console.log("Burger Added.");
-      break;
-    case "3":
-      quantity = Number(prompt("Enter a quantity: "));
-      totalBill = totalBill + 180 * quantity;
-      console.log("Pasta Added.");
-      break;
-    case "4":
-      console.log("your Total Bill is : " + totalBill);
-      break;
-    case "5":
-      break;
+//   switch (choice) {
+//     case "1":
+//       quantity = Number(prompt("Enter a quantity: "));
+//       totalBill = totalBill + 250 * quantity;
+//       console.log("Pizza Added.");
+//       break;
+//     case "2":
+//       quantity = Number(prompt("Enter a quantity: "));
+//       totalBill = totalBill + 120 * quantity;
+//       console.log("Burger Added.");
+//       break;
+//     case "3":
+//       quantity = Number(prompt("Enter a quantity: "));
+//       totalBill = totalBill + 180 * quantity;
+//       console.log("Pasta Added.");
+//       break;
+//     case "4":
+//       console.log("your Total Bill is : " + totalBill);
+//       break;
+//     case "5":
+//       break;
 
-    default:
-      console.log("please enter a valid choice.");
-  }
-} while (choice !== "5");
+//     default:
+//       console.log("please enter a valid choice.");
+//   }
+// } while (choice !== "5");
